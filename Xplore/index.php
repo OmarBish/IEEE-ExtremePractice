@@ -1,6 +1,10 @@
 <?php
 
 /*
+url:
+https://csacademy.com/ieeextreme-practice/task/xplore/
+
+description:
 For this challenge, write a program that reads a set of NNN entries from the Xplore database, in a JSON format, and prints ALL author names followed by the their h-index. The authors should be raked by h-index and by alphabetical order in case of an h-index tie.
 
 Standard input
@@ -43,7 +47,11 @@ In this list, Charlie is the author of 7 papers: with article_number 2, 3, 4, 5,
 
 If we order his papers by citation count it will be: 9, 9, 9, 6, 5, 4, 4. Charlie's h-index is 5 Because he has 5 papers with at least 5 citations.
 
-The same method is applied for Echo, Alfa, Bravo, and Delta. Because Alfa, Bravo, and Delta all have the same h-index they are listed alphabetically. */
+The same method is applied for Echo, Alfa, Bravo, and Delta. Because Alfa, Bravo, and Delta all have the same h-index they are listed alphabetically. 
+
+tags:
+php,api,json,sort,h-index,Extreme_12
+*/
 
 
 
@@ -95,10 +103,11 @@ for ($x = 0; $x <$count; $x++){
     {   
         if ($a->hIndex < $b->hIndex) {
             return 1 ;
-        }else{
-            if($a->hIndex == $b->hIndex)
-                return strcmp($a->fullName ,$b->fullName);
-        } 
+        }elseif($a->hIndex > $b->hIndex ){
+            return -1;
+        }elseif($a->hIndex == $b->hIndex){
+            return strcmp($a->fullName ,$b->fullName); 
+        }
     }
     usort($authors,"cmp");
     foreach($authors as $value){

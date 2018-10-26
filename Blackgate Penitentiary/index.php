@@ -1,8 +1,11 @@
 <?php
 
 /*
-    To facilitate the transport, you should form a row such that the heights of the gang members are in non-decreasing order. For each gang member you should find the minimum and the maximum position where they can be in a valid sorted row and produce a roster with this information. 
+    url:
+    https://csacademy.com/ieeextreme-practice/task/8761fb7efefcf1d890df1d8d91cae241/
 
+    description:
+    To facilitate the transport, you should form a row such that the heights of the gang members are in non-decreasing order. For each gang member you should find the minimum and the maximum position where they can be in a valid sorted row and produce a roster with this information. 
 
     input :
     6
@@ -17,6 +20,11 @@
     HarleyQuin 1 1
     Muggs Paulie TheJoker 2 4
     Boody MrHammer 5 6
+
+    tags:
+    php,sort,Extreme_11
+
+
 */
 $handle = fopen ("php://stdin","r");
 $n = fgets($handle);
