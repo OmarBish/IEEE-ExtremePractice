@@ -50,7 +50,7 @@ If we order his papers by citation count it will be: 9, 9, 9, 6, 5, 4, 4. Charli
 The same method is applied for Echo, Alfa, Bravo, and Delta. Because Alfa, Bravo, and Delta all have the same h-index they are listed alphabetically. 
 
 tags:
-php,api,json,sort,h-index,Extreme_12
+#api,#json,#sort,#h-index,#Extreme_12
 */
 
 

@@ -18,7 +18,7 @@ import java.util.Scanner;
       of length N with each bit separated by a space.
 
       tags:
-      Interactive,bit manipulation
+      #Interactive,#bit_manipulation,#Extreme_12
 
  */
 

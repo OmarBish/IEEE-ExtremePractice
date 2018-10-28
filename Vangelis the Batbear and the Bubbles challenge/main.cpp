@@ -23,7 +23,7 @@ output:
 0
 
 tags:
-DFS,Graph,loop detection,depth first,cpp,Extreme_11
+#DFS,#Graph,#loop_detection,#depth_first,#Extreme_11
 
 
 */

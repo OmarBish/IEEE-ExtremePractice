@@ -18,7 +18,7 @@ using namespace std;
       of length N with each bit separated by a space.
 
       tags:
-      Interactive,bit manipulation
+      #Interactive,#bit_Manipulation,#Extreme_12
 
  */
 int main() {
